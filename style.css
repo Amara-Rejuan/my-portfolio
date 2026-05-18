@@ -1,0 +1,63 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 24px;
+  text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.upper-text {
+    margin-bottom: 50px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4
+ {
+  margin-top: 10px;
+  display: inline-block;
+  color:
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color:rgb(251, 141, 121);
+    width: 300px;
+    margin-top: 5px;
+
+}
+
+.box1 {
+    display: inline-block;
+}
+
+.box2{
+    display: inline-block;
+}
+
+.box3 {
+    display: inline-block;
+}
+
+.box4 {
+    display: inline-block;
+}
+
+.container1,
+.container2 {
+    margin: 90px;
+}
