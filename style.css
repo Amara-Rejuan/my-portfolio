@@ -4,60 +4,132 @@ p {
   margin-bottom: 0;
 }
 
+
 body {
-  background-color: rgb(248, 248, 248);
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 24px;
-  text-align: center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    background-image: url(images/background-portfolio.jpg);
+    background-repeat:no-repeat;
 }
 
-.title{
+
+.header-image {
+    width: 690px;
+    margin-top: -95px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.title {
+    font-size: 30px;
+    border-radius: 2px;
+    color: rgb(185, 242, 255);
+    position: absolute;
+    top: 80px;
+    left: 835px
+}
+
+
+.intro {
+    font-size: 30px;
+    border-radius: 2px;
+    color: rgb(185, 242, 255);
+    position: absolute;
+    top: 115px;
+    left: 880px
+}
+
+.intro2 {
+    font-size: 40px;
+    border-radius: 2px;
+    color: rgb(185, 254, 255);
+    position: absolute;
+    top: 245px;
+    left: 850px
+}
+
+.title, 
+.intro,
+.intro2 {
+    margin: -10px;
+}
+
+.div1 {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box-text1,
+.box-text2,
+.box-text3,
+.box-text4,
+.box-text5,
+.box-text6{
+    font-family: roboto, arial;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    color: rgb(127, 193, 219);
+    position: absolute;
+}
+
+.box-text1 {
+    bottom: 70px;
+    right: 5px;
+    padding-right: 6px; 
+    padding-left: 6px;
+}
+
+.box-text2 {
+    bottom: 40px; 
+    right: 38px;
+    line-height: 1.1;
+    width: 243px;
+    padding: 1px;
+}
+
+.box-text3 {
+    bottom: 70px;
+    right: 5px;
+}
+
+.box-text4 {
+    bottom: 70px;    
+    right: 60px;
+    width: 200px;
+}
+
+.box-text5 {
+    bottom: 85px;
+    right: 100px;
+}
+
+.box-text2,
+.box-text6
+ {
     text-align: center;
 }
 
-.upper-text {
-    margin-bottom: 50px;
-}
+.box-text6 {
+    bottom: 68px; 
+    right: 30px;
+    line-height: 1.2;
+    width: 250px;
+    }
 
-.link1,
-.link2,
-.link3,
-.link4
+.box-background1,
+.box-background2
  {
-  margin-top: 10px;
-  display: inline-block;
-  color:
-}
-
-.box1,
-.box2,
-.box3,
-.box4 {
-    background-color:rgb(251, 141, 121);
     width: 300px;
-    margin-top: 5px;
-
-}
-
-.box1 {
+    height: 200px;
+    object-position: center;
     display: inline-block;
-}
-
-.box2{
-    display: inline-block;
-}
-
-.box3 {
-    display: inline-block;
-}
-
-.box4 {
-    display: inline-block;
-}
-
-.container1,
-.container2 {
-    margin: 90px;
+    margin-right: 10px;
+    border-radius: 60px;
+    border-style:double;
+    border-color: rgb(37, 181, 206);
 }
