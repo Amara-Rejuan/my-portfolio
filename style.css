@@ -6,12 +6,14 @@ p {
 
 
 body {
-    height: 100vh;
+  min-height: 100vh;
     background-size: cover;
     text-align: center;
+    align-items: center;
     background-position: center;
     background-image: url(images/background-portfolio.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -22,39 +24,42 @@ body {
     margin-right: 50px;
 }
 
-.title {
+.title,
+.intro{
     font-size: 30px;
-    border-radius: 2px;
-    color: rgb(185, 242, 255);
+    color: rgb(184, 229, 247);
     position: absolute;
-    top: 80px;
-    left: 835px
+    text-align: center;
+    align-items:center;
 }
 
+.intro2 {
+    font-size: 30px;
+    color: rgb(184, 229, 247);
+    text-align: center;
+    align-items:center;
+    margin-top: -50px;
+}
+
+.title {
+    bottom: 150px;
+    right: 155px;
+    padding-right: 6px; 
+    padding-left: 6px;
+    text-align: center;
+    align-items:center;
+}
 
 .intro {
-    font-size: 30px;
-    border-radius: 2px;
-    color: rgb(185, 242, 255);
-    position: absolute;
-    top: 115px;
-    left: 880px
+    bottom: 180px;
+    right: 250px;
+    padding-right: 6px; 
+    padding-left: 6px;
+    text-align: center;
+    align-items:center;
 }
 
-.intro2 {
-    font-size: 40px;
-    border-radius: 2px;
-    color: rgb(185, 254, 255);
-    position: absolute;
-    top: 245px;
-    left: 850px
-}
 
-.title, 
-.intro,
-.intro2 {
-    margin: -10px;
-}
 
 .div1 {
     position: relative;
@@ -132,4 +137,15 @@ body {
     border-radius: 60px;
     border-style:double;
     border-color: rgb(37, 181, 206);
+}
+
+@media (max-width: 768px) {
+    div {
+        text-align: center !important;
+    }
+    
+    .div1 {
+        display: inline-block !important;
+        margin: 10px !important;
+    }
 }
